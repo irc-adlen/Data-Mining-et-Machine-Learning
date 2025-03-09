@@ -1,0 +1,25 @@
+{
+    "user_id": "user1",
+    "favorite_colors": {
+        "brown": 1,
+        "gray": 2,
+        "yellow": 3
+    },
+    "favorite_orientation": {
+        "landscape": 2
+    },
+    "favorite_sizes": {
+        "large": 2
+    },
+    "favorite_tags": {
+        "#trainline": 1,
+        "#train": 1,
+        "#trainpublic": 1,
+        "#railroad": 1,
+        "#traincommute": 1,
+        "#traintrack": 1,
+        "#waiting": 1,
+        "#public": 1,
+        "#platform": 1
+    }
+}

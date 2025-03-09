@@ -1,0 +1,24 @@
+{
+    "user_id": "user2",
+    "favorite_colors": {
+        "green": 1,
+        "orange": 2,
+        "white": 1,
+        "brown": 1,
+        "red": 1
+    },
+    "favorite_orientation": {
+        "landscape": 2
+    },
+    "favorite_sizes": {
+        "large": 2
+    },
+    "favorite_tags": {
+        "#urban": 1,
+        "#traincity": 1,
+        "#trainstation": 1,
+        "#trainwaiting": 1,
+        "#trainplatform": 1,
+        "#traincommute": 1
+    }
+}

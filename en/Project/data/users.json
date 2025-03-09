@@ -1,0 +1,135 @@
+[
+    {
+        "user_id": "user1",
+        "selected_images": [
+            {
+                "name": "Halte de Serdinya",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Halte-Serdinya-CPancienne.jpg",
+                "imagePath": "./data/images/Halte de Serdinya.jpg",
+                "place": "Serdinya",
+                "openingDate": "1910-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Ligne de Cerdagne"
+                ],
+                "state": "in use",
+                "coordinates": "Point(2.323129 42.566996)"
+            },
+            {
+                "name": "Saint-Louis station",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Saint-Louis%20%28Haut-Rhin%29.JPG",
+                "imagePath": "./data/images/Saint-Louis station.JPG",
+                "place": "Saint-Louis",
+                "openingDate": "1840-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Weil am Rhein\u2013Saint-Louis line",
+                    " Strasbourg\u2013Basel railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(7.555855555 47.590536111)"
+            }
+        ],
+        "user_tags": {
+            "Halte de Serdinya": [
+                "#trainline",
+                "#train",
+                "#trainpublic",
+                "#railroad"
+            ],
+            "Saint-Louis station": [
+                "#traincommute",
+                "#traintrack",
+                "#waiting",
+                "#public",
+                "#platform"
+            ]
+        }
+    },
+    {
+        "user_id": "user2",
+        "selected_images": [
+            {
+                "name": "Gare de Pont-R\u00e9my",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Pont-Remy%20en%202009.JPG",
+                "imagePath": "./data/images/Gare de Pont-R\u00e9my.JPG",
+                "place": "Pont-Remy",
+                "openingDate": "1847-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Longueau\u2013Boulogne railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(1.898889 50.047222)"
+            },
+            {
+                "name": "Roumazi\u00e8res-Loubert railway station",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Roumaz%20gare.JPG",
+                "imagePath": "./data/images/Roumazi\u00e8res-Loubert railway station.JPG",
+                "place": "Terres-de-Haute-Charente, Roumazi\u00e8res-Loubert",
+                "openingDate": "1875-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Roumazi\u00e8res-Loubert au Vigeant railway line",
+                    " Limoges-B\u00e9n\u00e9dictins \u00e0 Angoul\u00eame railway line"
+                ],
+                "state": "decommissioned",
+                "coordinates": "Point(0.578905 45.889398)"
+            }
+        ],
+        "user_tags": {
+            "Gare de Pont-R\u00e9my": [
+                "#urban",
+                "#traincity",
+                "#trainstation",
+                "#trainwaiting",
+                "#trainplatform"
+            ],
+            "Roumazi\u00e8res-Loubert railway station": [
+                "#traincommute"
+            ]
+        }
+    },
+    {
+        "user_id": "user3",
+        "selected_images": [
+            {
+                "name": "Gare de Kogenheim",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Kogenheim%20%2867%29%20%28France%29.jpg",
+                "imagePath": "./data/images/Gare de Kogenheim.jpg",
+                "place": "Kogenheim",
+                "openingDate": "1840-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Strasbourg\u2013Basel railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(7.535222222 48.338861111)"
+            },
+            {
+                "name": "Gare de Sarlat-la-Can\u00e9da",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare-de-Sarlat.jpg",
+                "imagePath": "./data/images/Gare de Sarlat-la-Can\u00e9da.jpg",
+                "place": "Sarlat-la-Can\u00e9da",
+                "openingDate": "1882-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Ligne de Condat-Le Lardin \u00e0 Sarlat"
+                ],
+                "state": "in use",
+                "coordinates": "Point(1.220273 44.876937)"
+            }
+        ],
+        "user_tags": {
+            "Gare de Kogenheim": [
+                "#traininfrastructure"
+            ],
+            "Gare de Sarlat-la-Can\u00e9da": [
+                "#platform",
+                "#urban",
+                "#trainpublic",
+                "#transport"
+            ]
+        }
+    }
+]

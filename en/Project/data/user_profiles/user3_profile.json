@@ -1,0 +1,21 @@
+{
+    "user_id": "user3",
+    "favorite_colors": {
+        "orange": 1,
+        "gray": 3,
+        "purple": 2
+    },
+    "favorite_orientation": {
+        "landscape": 2
+    },
+    "favorite_sizes": {
+        "large": 2
+    },
+    "favorite_tags": {
+        "#traininfrastructure": 1,
+        "#platform": 1,
+        "#urban": 1,
+        "#trainpublic": 1,
+        "#transport": 1
+    }
+}

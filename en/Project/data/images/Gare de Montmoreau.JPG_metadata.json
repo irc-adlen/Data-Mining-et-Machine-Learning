@@ -1,0 +1,25 @@
+{
+    "image_path": "./data/images/Gare de Montmoreau.JPG",
+    "exif_data": {},
+    "predominant_colors": [
+        "cornflowerblue",
+        "darkolivegreen",
+        "black",
+        "dimgray",
+        "silver"
+    ],
+    "object_tags": [
+        [
+            "passenger_car",
+            0.414124071598053
+        ],
+        [
+            "electric_locomotive",
+            0.25945958495140076
+        ],
+        [
+            "streetcar",
+            0.2535894513130188
+        ]
+    ]
+}

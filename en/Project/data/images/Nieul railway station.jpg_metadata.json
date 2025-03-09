@@ -1,0 +1,25 @@
+{
+    "image_path": "./data/images/Nieul railway station.jpg",
+    "exif_data": {},
+    "predominant_colors": [
+        "lightskyblue",
+        "dimgray",
+        "darkgray",
+        "darkslategray",
+        "black"
+    ],
+    "object_tags": [
+        [
+            "passenger_car",
+            0.8846091628074646
+        ],
+        [
+            "streetcar",
+            0.05805468186736107
+        ],
+        [
+            "electric_locomotive",
+            0.052150074392557144
+        ]
+    ]
+}

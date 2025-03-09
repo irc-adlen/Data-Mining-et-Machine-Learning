@@ -1,0 +1,64 @@
+{
+    "image_path": "./data/images/Gare de Juvisy.jpg",
+    "exif_data": {
+        "Image Make": "Canon",
+        "Image Model": "Canon PowerShot G11",
+        "Image Orientation": "Horizontal (normal)",
+        "Image Software": "Adobe Photoshop Elements 9.0 Windows",
+        "Image DateTime": "2012:01:29 17:39:19",
+        "Image ExifOffset": "2266",
+        "Image LensSpecification": "[61/10, 61/2, 0/0, 0/0]",
+        "Image LensModel": "6.1-30.5 mm",
+        "Image Padding": "[]",
+        "EXIF ExposureTime": "1/40",
+        "EXIF FNumber": "4",
+        "EXIF ISOSpeedRatings": "80",
+        "EXIF ExifVersion": "0230",
+        "EXIF DateTimeOriginal": "2011:12:05 15:47:57",
+        "EXIF DateTimeDigitized": "2011:12:05 15:47:57",
+        "EXIF ShutterSpeedValue": "665241/125000",
+        "EXIF ApertureValue": "4",
+        "EXIF ExposureBiasValue": "0",
+        "EXIF MaxApertureValue": "95/32",
+        "EXIF SubjectDistance": "322/5",
+        "EXIF MeteringMode": "CenterWeightedAverage",
+        "EXIF Flash": "Flash did not fire, compulsory flash mode",
+        "EXIF FocalLength": "61/10",
+        "EXIF SubSecTimeOriginal": "00",
+        "EXIF SubSecTimeDigitized": "00",
+        "EXIF ExifImageWidth": "3501",
+        "EXIF ExifImageLength": "2626",
+        "EXIF FocalPlaneXResolution": "400000/73",
+        "EXIF FocalPlaneYResolution": "400000/73",
+        "EXIF FocalPlaneResolutionUnit": "2",
+        "EXIF SensingMethod": "One-chip color area",
+        "EXIF FileSource": "Digital Camera",
+        "EXIF CustomRendered": "Normal",
+        "EXIF ExposureMode": "Auto Exposure",
+        "EXIF WhiteBalance": "Auto",
+        "EXIF DigitalZoomRatio": "1",
+        "EXIF SceneCaptureType": "Standard",
+        "EXIF Padding": "[]"
+    },
+    "predominant_colors": [
+        "lavender",
+        "silver",
+        "gray",
+        "darkslategray",
+        "black"
+    ],
+    "object_tags": [
+        [
+            "triumphal_arch",
+            0.39568325877189636
+        ],
+        [
+            "obelisk",
+            0.23123377561569214
+        ],
+        [
+            "bell_cote",
+            0.06951265037059784
+        ]
+    ]
+}

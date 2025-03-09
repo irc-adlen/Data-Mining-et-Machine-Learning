@@ -1,0 +1,25 @@
+{
+    "image_path": "./data/images/Gare de Buzy.png",
+    "exif_data": {},
+    "predominant_colors": [
+        "silver",
+        "dimgray",
+        "darkslategray",
+        "black",
+        "gray"
+    ],
+    "object_tags": [
+        [
+            "church",
+            0.7971271872520447
+        ],
+        [
+            "bell_cote",
+            0.12578162550926208
+        ],
+        [
+            "monastery",
+            0.07210023701190948
+        ]
+    ]
+}

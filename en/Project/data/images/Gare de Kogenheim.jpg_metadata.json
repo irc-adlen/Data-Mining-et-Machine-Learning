@@ -1,0 +1,55 @@
+{
+    "image_path": "./data/images/Gare de Kogenheim.jpg",
+    "exif_data": {
+        "Image Make": "samsung",
+        "Image Model": "SM-A536B",
+        "Image Software": "Adobe Lightroom 9.2.1 (Android)",
+        "Image DateTime": "2024:03:14 17:00:10",
+        "Image ExifOffset": "332",
+        "EXIF ExposureTime": "1/590",
+        "EXIF FNumber": "9/5",
+        "EXIF ExposureProgram": "Program Normal",
+        "EXIF ISOSpeedRatings": "50",
+        "EXIF ExifVersion": "0231",
+        "EXIF DateTimeOriginal": "2024:03:14 17:00:10",
+        "EXIF DateTimeDigitized": "2024:03:14 17:00:10",
+        "EXIF OffsetTime": "+01:00",
+        "EXIF OffsetTimeOriginal": "+01:00",
+        "EXIF OffsetTimeDigitized": "+01:00",
+        "EXIF ShutterSpeedValue": "9204571/1000000",
+        "EXIF ApertureValue": "847997/500000",
+        "EXIF BrightnessValue": "151/20",
+        "EXIF ExposureBiasValue": "0",
+        "EXIF MaxApertureValue": "169/100",
+        "EXIF MeteringMode": "Spot",
+        "EXIF LightSource": "Unknown",
+        "EXIF Flash": "Flash did not fire",
+        "EXIF FocalLength": "523/100",
+        "EXIF SubSecTime": "711",
+        "EXIF SubSecTimeOriginal": "711",
+        "EXIF SubSecTimeDigitized": "711",
+        "EXIF ColorSpace": "sRGB",
+        "EXIF FocalLengthIn35mmFilm": "24"
+    },
+    "predominant_colors": [
+        "skyblue",
+        "darkslategray",
+        "dimgray",
+        "gainsboro",
+        "rosybrown"
+    ],
+    "object_tags": [
+        [
+            "freight_car",
+            0.37113118171691895
+        ],
+        [
+            "passenger_car",
+            0.25709810853004456
+        ],
+        [
+            "electric_locomotive",
+            0.21954093873500824
+        ]
+    ]
+}

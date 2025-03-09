@@ -1,0 +1,25 @@
+{
+    "image_path": "./data/images/Gare de la Bastille.jpg",
+    "exif_data": {},
+    "predominant_colors": [
+        "snow",
+        "silver",
+        "dimgray",
+        "gray",
+        "darkslategray"
+    ],
+    "object_tags": [
+        [
+            "palace",
+            0.9599280953407288
+        ],
+        [
+            "streetcar",
+            0.008736076764762402
+        ],
+        [
+            "castle",
+            0.005883438512682915
+        ]
+    ]
+}

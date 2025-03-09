@@ -1,0 +1,31 @@
+{
+    "image_path": "./data/images/Gare de Weyersheim.jpg",
+    "exif_data": {
+        "Image Tag 0x0301": "20000/9091",
+        "Image Tag 0x0303": "0",
+        "Image Tag 0x5110": "1",
+        "Image Tag 0x5111": "3779",
+        "Image Tag 0x5112": "3779"
+    },
+    "predominant_colors": [
+        "cadetblue",
+        "darkolivegreen",
+        "darkslategray",
+        "gray",
+        "wheat"
+    ],
+    "object_tags": [
+        [
+            "monastery",
+            0.311433345079422
+        ],
+        [
+            "church",
+            0.3099622130393982
+        ],
+        [
+            "picket_fence",
+            0.07867752760648727
+        ]
+    ]
+}

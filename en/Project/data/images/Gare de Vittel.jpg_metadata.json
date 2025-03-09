@@ -1,0 +1,25 @@
+{
+    "image_path": "./data/images/Gare de Vittel.jpg",
+    "exif_data": {},
+    "predominant_colors": [
+        "lightskyblue",
+        "gainsboro",
+        "darkgray",
+        "dimgray",
+        "darkslategray"
+    ],
+    "object_tags": [
+        [
+            "palace",
+            0.5996364951133728
+        ],
+        [
+            "prison",
+            0.1398182511329651
+        ],
+        [
+            "cinema",
+            0.06111882999539375
+        ]
+    ]
+}

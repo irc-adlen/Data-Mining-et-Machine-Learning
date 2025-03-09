@@ -1,0 +1,68 @@
+{
+    "image_path": "./data/images/Pl\u00e9ch\u00e2tel.jpg",
+    "exif_data": {
+        "Image Make": "Panasonic",
+        "Image Model": "DMC-TZ8",
+        "Image Software": "Ver.1.0  ",
+        "Image DateTime": "2011:04:15 09:37:00",
+        "Image YCbCrPositioning": "Co-sited",
+        "Image ExifOffset": "570",
+        "Image PrintIM": "[80, 114, 105, 110, 116, 73, 77, 0, 48, 50, 53, 48, 0, 0, 14, 0, 1, 0, 22, 0, ... ]",
+        "Image Tag 0xC6D2": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... ]",
+        "Image Tag 0xC6D3": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... ]",
+        "EXIF ExposureTime": "1/100",
+        "EXIF FNumber": "4",
+        "EXIF ExposureProgram": "Program Normal",
+        "EXIF ISOSpeedRatings": "80",
+        "EXIF ExifVersion": "0221",
+        "EXIF DateTimeOriginal": "2011:04:15 09:37:00",
+        "EXIF DateTimeDigitized": "2011:04:15 09:37:00",
+        "EXIF ComponentsConfiguration": "YCbCr",
+        "EXIF CompressedBitsPerPixel": "4",
+        "EXIF ExposureBiasValue": "0",
+        "EXIF MaxApertureValue": "86/25",
+        "EXIF MeteringMode": "Pattern",
+        "EXIF LightSource": "Unknown",
+        "EXIF Flash": "Flash did not fire, auto mode",
+        "EXIF FocalLength": "103/10",
+        "EXIF MakerNote": "[80, 97, 110, 97, 115, 111, 110, 105, 99, 0, 0, 0, 70, 0, 1, 0, 3, 0, 1, 0, ... ]",
+        "EXIF FlashPixVersion": "0100",
+        "EXIF ColorSpace": "sRGB",
+        "EXIF ExifImageWidth": "4000",
+        "EXIF ExifImageLength": "3000",
+        "EXIF SensingMethod": "One-chip color area",
+        "EXIF FileSource": "Digital Camera",
+        "EXIF SceneType": "Directly Photographed",
+        "EXIF CustomRendered": "Normal",
+        "EXIF ExposureMode": "Auto Exposure",
+        "EXIF WhiteBalance": "Auto",
+        "EXIF DigitalZoomRatio": "0",
+        "EXIF FocalLengthIn35mmFilm": "63",
+        "EXIF SceneCaptureType": "Standard",
+        "EXIF GainControl": "None",
+        "EXIF Contrast": "Normal",
+        "EXIF Saturation": "Normal",
+        "EXIF Sharpness": "Normal"
+    },
+    "predominant_colors": [
+        "lightcyan",
+        "silver",
+        "lightslategray",
+        "olivedrab",
+        "darkgreen"
+    ],
+    "object_tags": [
+        [
+            "suspension_bridge",
+            0.5120595693588257
+        ],
+        [
+            "valley",
+            0.25804659724235535
+        ],
+        [
+            "viaduct",
+            0.041326019912958145
+        ]
+    ]
+}

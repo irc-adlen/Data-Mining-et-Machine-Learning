@@ -1,0 +1,25 @@
+{
+    "image_path": "./data/images/Gare de Dives-Cabourg.jpg",
+    "exif_data": {},
+    "predominant_colors": [
+        "lightgray",
+        "darkgray",
+        "gray",
+        "black",
+        "darkolivegreen"
+    ],
+    "object_tags": [
+        [
+            "palace",
+            0.9482611417770386
+        ],
+        [
+            "sundial",
+            0.007889690808951855
+        ],
+        [
+            "triumphal_arch",
+            0.00687422975897789
+        ]
+    ]
+}

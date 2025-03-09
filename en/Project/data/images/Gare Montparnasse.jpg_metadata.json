@@ -1,0 +1,25 @@
+{
+    "image_path": "./data/images/Gare Montparnasse.jpg",
+    "exif_data": {},
+    "predominant_colors": [
+        "powderblue",
+        "darkgray",
+        "slategray",
+        "darkslategray",
+        "black"
+    ],
+    "object_tags": [
+        [
+            "steel_arch_bridge",
+            0.311884343624115
+        ],
+        [
+            "greenhouse",
+            0.16832120716571808
+        ],
+        [
+            "flagpole",
+            0.08635790646076202
+        ]
+    ]
+}

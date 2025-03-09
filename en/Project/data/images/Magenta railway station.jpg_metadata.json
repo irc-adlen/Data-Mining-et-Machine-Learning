@@ -1,0 +1,25 @@
+{
+    "image_path": "./data/images/Magenta railway station.jpg",
+    "exif_data": {},
+    "predominant_colors": [
+        "dimgray",
+        "darkslategray",
+        "gray",
+        "tan",
+        "linen"
+    ],
+    "object_tags": [
+        [
+            "bullet_train",
+            0.899226188659668
+        ],
+        [
+            "passenger_car",
+            0.04051574319601059
+        ],
+        [
+            "streetcar",
+            0.025686165317893028
+        ]
+    ]
+}

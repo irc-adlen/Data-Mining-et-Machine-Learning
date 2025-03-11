@@ -1,25 +1,36 @@
 {
     "user_id": "user1",
     "favorite_colors": {
-        "brown": 1,
-        "gray": 2,
-        "yellow": 3
+        "lightslategray": 2,
+        "darkolivegreen": 4,
+        "darkslategray": 5,
+        "lightgray": 4,
+        "darkkhaki": 1,
+        "ghostwhite": 1,
+        "silver": 4,
+        "gray": 4,
+        "dimgray": 5,
+        "lightcyan": 1,
+        "olivedrab": 1,
+        "darkgreen": 1,
+        "wheat": 1,
+        "tan": 1,
+        "gainsboro": 2,
+        "rosybrown": 2,
+        "steelblue": 2,
+        "cornflowerblue": 1,
+        "black": 4,
+        "darkslateblue": 1,
+        "darkgray": 2,
+        "cadetblue": 1
     },
     "favorite_orientation": {
-        "landscape": 2
+        "landscape": 9,
+        "portrait": 1
     },
     "favorite_sizes": {
-        "large": 2
+        "large": 9,
+        "medium": 1
     },
-    "favorite_tags": {
-        "#trainline": 1,
-        "#train": 1,
-        "#trainpublic": 1,
-        "#railroad": 1,
-        "#traincommute": 1,
-        "#traintrack": 1,
-        "#waiting": 1,
-        "#public": 1,
-        "#platform": 1
-    }
+    "favorite_tags": {}
 }

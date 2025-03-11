@@ -1,21 +1,35 @@
 {
     "user_id": "user3",
     "favorite_colors": {
-        "orange": 1,
-        "gray": 3,
-        "purple": 2
+        "lightcyan": 1,
+        "silver": 3,
+        "lightslategray": 2,
+        "olivedrab": 1,
+        "darkgreen": 1,
+        "ghostwhite": 2,
+        "darkgray": 4,
+        "gray": 7,
+        "darkslategray": 7,
+        "dimgray": 3,
+        "black": 6,
+        "royalblue": 1,
+        "palegoldenrod": 1,
+        "skyblue": 1,
+        "darkslateblue": 1,
+        "lightgray": 2,
+        "darkolivegreen": 1,
+        "rosybrown": 1,
+        "gainsboro": 1,
+        "lightblue": 1,
+        "lavender": 1,
+        "tan": 1,
+        "linen": 1
     },
     "favorite_orientation": {
-        "landscape": 2
+        "landscape": 10
     },
     "favorite_sizes": {
-        "large": 2
+        "large": 10
     },
-    "favorite_tags": {
-        "#traininfrastructure": 1,
-        "#platform": 1,
-        "#urban": 1,
-        "#trainpublic": 1,
-        "#transport": 1
-    }
+    "favorite_tags": {}
 }

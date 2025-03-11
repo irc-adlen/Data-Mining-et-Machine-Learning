@@ -3,46 +3,189 @@
         "user_id": "user1",
         "selected_images": [
             {
-                "name": "Halte de Serdinya",
-                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Halte-Serdinya-CPancienne.jpg",
-                "imagePath": "./data/images/Halte de Serdinya.jpg",
-                "place": "Serdinya",
-                "openingDate": "1910-01-01T00:00:00Z",
+                "name": "Roumazi\u00e8res-Loubert railway station",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Roumaz%20gare.JPG",
+                "imagePath": "./data/images/Roumazi\u00e8res-Loubert railway station.JPG",
+                "place": "Terres-de-Haute-Charente, Roumazi\u00e8res-Loubert",
+                "openingDate": "1875-01-01T00:00:00Z",
                 "closingDate": null,
                 "lines": [
-                    "Ligne de Cerdagne"
+                    "Roumazi\u00e8res-Loubert au Vigeant railway line",
+                    " Limoges-B\u00e9n\u00e9dictins \u00e0 Angoul\u00eame railway line"
                 ],
-                "state": "in use",
-                "coordinates": "Point(2.323129 42.566996)"
+                "state": "decommissioned",
+                "coordinates": "Point(0.578905 45.889398)"
             },
             {
-                "name": "Saint-Louis station",
-                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Saint-Louis%20%28Haut-Rhin%29.JPG",
-                "imagePath": "./data/images/Saint-Louis station.JPG",
-                "place": "Saint-Louis",
-                "openingDate": "1840-01-01T00:00:00Z",
+                "name": "Gare de Ch\u00e9py-Valines",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Ch%C3%A9py%20-%20Valines.jpg",
+                "imagePath": "./data/images/Gare de Ch\u00e9py-Valines.jpg",
+                "place": "Ch\u00e9py",
+                "openingDate": "1882-01-01T00:00:00Z",
                 "closingDate": null,
                 "lines": [
-                    "Weil am Rhein\u2013Saint-Louis line",
-                    " Strasbourg\u2013Basel railway"
+                    ""
+                ],
+                "state": "decommissioned",
+                "coordinates": "Point(1.635833 50.068056)"
+            },
+            {
+                "name": "Pl\u00e9ch\u00e2tel",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Vue%20de%20la%20gare%20%282011%29.jpg",
+                "imagePath": "./data/images/Pl\u00e9ch\u00e2tel.jpg",
+                "place": "Pl\u00e9ch\u00e2tel",
+                "openingDate": "1862-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Rennes\u2013Redon railway"
                 ],
                 "state": "in use",
-                "coordinates": "Point(7.555855555 47.590536111)"
+                "coordinates": "Point(-1.776389 47.87194)"
+            },
+            {
+                "name": "Gare des Brotteaux",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/ER%20309%20-%20LYON%20-%20Gare%20des%20Brotteaux%20-%20La%20station%20des%20Tramways.JPG",
+                "imagePath": "./data/images/Gare des Brotteaux.JPG",
+                "place": "6th arrondissement of Lyon",
+                "openingDate": "1858-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Lyon\u2013Geneva railway"
+                ],
+                "state": "decommissioned",
+                "coordinates": "Point(4.8598 45.7672)"
+            },
+            {
+                "name": "Gare de Guingamp",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Guingamp%20sept2017.jpg",
+                "imagePath": "./data/images/Gare de Guingamp.jpg",
+                "place": "Guingamp",
+                "openingDate": "1863-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Ligne de Guingamp \u00e0 Paimpol",
+                    " Paris\u2013Brest railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(-3.143333 48.555556)"
+            },
+            {
+                "name": "Fontaine-Michalon Station",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/RER-B%20FontaineM1.jpg",
+                "imagePath": "./data/images/Fontaine-Michalon Station.jpg",
+                "place": "Antony",
+                "openingDate": "1930-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Ligne de Sceaux"
+                ],
+                "state": "in use",
+                "coordinates": "Point(2.296667 48.743611)"
+            },
+            {
+                "name": "Gare de Pierre-Buffi\u00e8re",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Pierre-Buffi%C3%A8re%20-%202015-08-20%20-%20IMG-0452.jpg",
+                "imagePath": "./data/images/Gare de Pierre-Buffi\u00e8re.jpg",
+                "place": "Pierre-Buffi\u00e8re",
+                "openingDate": "1893-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Orl\u00e9ans\u2013Montauban railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(1.347275 45.699506)"
+            },
+            {
+                "name": "Pantin",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20Pantin%20-%20Pantin%20%28FR93%29%20-%202021-04-25%20-%202.jpg",
+                "imagePath": "./data/images/Pantin.jpg",
+                "place": "Pantin",
+                "openingDate": "1864-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "La Plaine \u00e0 Pantin",
+                    " Paris\u2013Mulhouse railway",
+                    " Paris\u2013Strasbourg railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(2.4 48.897778)"
+            },
+            {
+                "name": "Gare d'Harfleur",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Harfleur%20gare.jpg",
+                "imagePath": "./data/images/Gare d'Harfleur.jpg",
+                "place": "Harfleur",
+                "openingDate": "1847-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Paris\u2013Le Havre railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(0.199166666 49.513611111)"
+            },
+            {
+                "name": "Gare de Courseulles-sur-Mer",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Courseulles.jpg",
+                "imagePath": "./data/images/Gare de Courseulles-sur-Mer.jpg",
+                "place": "Courseulles-sur-Mer",
+                "openingDate": "1876-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Compagnie du Chemin de Fer de Caen \u00e0 la Mer"
+                ],
+                "state": "decommissioned",
+                "coordinates": "Point(-0.4575 49.334722222)"
             }
         ],
         "user_tags": {
-            "Halte de Serdinya": [
-                "#trainline",
-                "#train",
-                "#trainpublic",
-                "#railroad"
-            ],
-            "Saint-Louis station": [
-                "#traincommute",
-                "#traintrack",
+            "Roumazi\u00e8res-Loubert railway station": [
                 "#waiting",
+                "#commuting",
                 "#public",
-                "#platform"
+                "#trainbuilding"
+            ],
+            "Gare de Ch\u00e9py-Valines": [
+                "#trainpublic",
+                "#traincommute",
+                "#railway"
+            ],
+            "Pl\u00e9ch\u00e2tel": [
+                "#trainbuilding",
+                "#trainwaiting",
+                "#transport",
+                "#trainstation"
+            ],
+            "Gare des Brotteaux": [
+                "#people"
+            ],
+            "Gare de Guingamp": [
+                "#people",
+                "#railroad",
+                "#travel"
+            ],
+            "Fontaine-Michalon Station": [
+                "#trainpeople",
+                "#trainrailway",
+                "#traintrack"
+            ],
+            "Gare de Pierre-Buffi\u00e8re": [
+                "#traincity",
+                "#trainpassenger",
+                "#trainrailway",
+                "#transport",
+                "#passenger"
+            ],
+            "Pantin": [
+                "#trainplatform"
+            ],
+            "Gare d'Harfleur": [
+                "#traintravel",
+                "#trainpeople",
+                "#trainbuilding",
+                "#trainplatform"
+            ],
+            "Gare de Courseulles-sur-Mer": [
+                "#traintrack"
             ]
         }
     },
@@ -50,17 +193,44 @@
         "user_id": "user2",
         "selected_images": [
             {
-                "name": "Gare de Pont-R\u00e9my",
-                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Pont-Remy%20en%202009.JPG",
-                "imagePath": "./data/images/Gare de Pont-R\u00e9my.JPG",
-                "place": "Pont-Remy",
-                "openingDate": "1847-01-01T00:00:00Z",
+                "name": "Gare de Courseulles-sur-Mer",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Courseulles.jpg",
+                "imagePath": "./data/images/Gare de Courseulles-sur-Mer.jpg",
+                "place": "Courseulles-sur-Mer",
+                "openingDate": "1876-01-01T00:00:00Z",
                 "closingDate": null,
                 "lines": [
-                    "Longueau\u2013Boulogne railway"
+                    "Compagnie du Chemin de Fer de Caen \u00e0 la Mer"
+                ],
+                "state": "decommissioned",
+                "coordinates": "Point(-0.4575 49.334722222)"
+            },
+            {
+                "name": "Lutzelhouse",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Bardeauxetgr%C3%A8slutz.JPG",
+                "imagePath": "./data/images/Lutzelhouse.JPG",
+                "place": "Lutzelhouse",
+                "openingDate": "1877-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Strasbourg\u2013Saint-Di\u00e9 railway line"
                 ],
                 "state": "in use",
-                "coordinates": "Point(1.898889 50.047222)"
+                "coordinates": "Point(7.293741 48.517927)"
+            },
+            {
+                "name": "Gare de Paris-Est",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Paris-Gare%20de%20l%27Est-2009.jpg",
+                "imagePath": "./data/images/Gare de Paris-Est.jpg",
+                "place": "10th arrondissement of Paris",
+                "openingDate": "1849-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Paris\u2013Mulhouse railway",
+                    " Paris\u2013Strasbourg railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(2.359166666 48.876944444)"
             },
             {
                 "name": "Roumazi\u00e8res-Loubert railway station",
@@ -75,18 +245,138 @@
                 ],
                 "state": "decommissioned",
                 "coordinates": "Point(0.578905 45.889398)"
+            },
+            {
+                "name": "Arpajon",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/GareArpajon.JPG",
+                "imagePath": "./data/images/Arpajon.JPG",
+                "place": "Arpajon",
+                "openingDate": "1865-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Ligne de Br\u00e9tigny \u00e0 La Membrolle-sur-Choisille"
+                ],
+                "state": "in use",
+                "coordinates": "Point(2.24114 48.58601)"
+            },
+            {
+                "name": "Saint-Maur \u2013 Cr\u00e9teil",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20RER%20-%20St%20Maur%20Creteil%20%26%20TVM.jpg",
+                "imagePath": "./data/images/Saint-Maur \u2013 Cr\u00e9teil.jpg",
+                "place": "Saint-Maur-des-Foss\u00e9s",
+                "openingDate": "1859-09-22T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "ligne de Paris-Bastille \u00e0 Marles-en-Brie"
+                ],
+                "state": "in use",
+                "coordinates": "Point(2.471944 48.806389)"
+            },
+            {
+                "name": "Gare de Montdauphin - Guillestre",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Montdauphin-Guillestre%2C%20Hautes-Alpes%2C%20France%2C%20acc%C3%A8s%20routier.JPG",
+                "imagePath": "./data/images/Gare de Montdauphin - Guillestre.JPG",
+                "place": "Eygliers",
+                "openingDate": "1883-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Ligne de Veynes \u00e0 Brian\u00e7on"
+                ],
+                "state": "in use",
+                "coordinates": "Point(6.615506 44.674606)"
+            },
+            {
+                "name": "Gare de Valognes",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Valognes1.jpg",
+                "imagePath": "./data/images/Gare de Valognes.jpg",
+                "place": "Valognes",
+                "openingDate": "1858-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Mantes-la-Jolie\u2013Cherbourg railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(-1.480001 49.50525)"
+            },
+            {
+                "name": "Gare de Baccarat",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Baccarat%20%28M-et-M%29%20gare%20cot%C3%A9%20rue.jpg",
+                "imagePath": "./data/images/Gare de Baccarat.jpg",
+                "place": "Baccarat",
+                "openingDate": "1864-05-17T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    ""
+                ],
+                "state": "in use",
+                "coordinates": "Point(6.744166 48.452152)"
+            },
+            {
+                "name": "Le Croisic train station",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20du%20Croisic.JPG",
+                "imagePath": "./data/images/Le Croisic train station.JPG",
+                "place": "Le Croisic",
+                "openingDate": "1879-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Saint-Nazaire - Le Croisic Line"
+                ],
+                "state": "in use",
+                "coordinates": "Point(-2.506706 47.290262)"
             }
         ],
         "user_tags": {
-            "Gare de Pont-R\u00e9my": [
+            "Gare de Courseulles-sur-Mer": [
+                "#track",
+                "#waiting"
+            ],
+            "Lutzelhouse": [
                 "#urban",
+                "#transport",
+                "#trainpassenger",
+                "#trainplatform",
+                "#public"
+            ],
+            "Gare de Paris-Est": [
+                "#building",
                 "#traincity",
-                "#trainstation",
-                "#trainwaiting",
-                "#trainplatform"
+                "#platform"
             ],
             "Roumazi\u00e8res-Loubert railway station": [
-                "#traincommute"
+                "#traininfrastructure",
+                "#trainpassenger",
+                "#traincity"
+            ],
+            "Arpajon": [
+                "#traintransport",
+                "#people",
+                "#commute"
+            ],
+            "Saint-Maur \u2013 Cr\u00e9teil": [
+                "#transport"
+            ],
+            "Gare de Montdauphin - Guillestre": [
+                "#traincommuting",
+                "#infrastructure",
+                "#trainrailway",
+                "#trainstation"
+            ],
+            "Gare de Valognes": [
+                "#commute",
+                "#urban",
+                "#traintravel",
+                "#architecture"
+            ],
+            "Gare de Baccarat": [
+                "#traininfrastructure",
+                "#traincommute",
+                "#architecture",
+                "#commute"
+            ],
+            "Le Croisic train station": [
+                "#trainpassenger",
+                "#traintransport",
+                "#waiting"
             ]
         }
     },
@@ -94,41 +384,187 @@
         "user_id": "user3",
         "selected_images": [
             {
-                "name": "Gare de Kogenheim",
-                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Kogenheim%20%2867%29%20%28France%29.jpg",
-                "imagePath": "./data/images/Gare de Kogenheim.jpg",
-                "place": "Kogenheim",
-                "openingDate": "1840-01-01T00:00:00Z",
+                "name": "Pl\u00e9ch\u00e2tel",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Vue%20de%20la%20gare%20%282011%29.jpg",
+                "imagePath": "./data/images/Pl\u00e9ch\u00e2tel.jpg",
+                "place": "Pl\u00e9ch\u00e2tel",
+                "openingDate": "1862-01-01T00:00:00Z",
                 "closingDate": null,
                 "lines": [
-                    "Strasbourg\u2013Basel railway"
+                    "Rennes\u2013Redon railway"
                 ],
                 "state": "in use",
-                "coordinates": "Point(7.535222222 48.338861111)"
+                "coordinates": "Point(-1.776389 47.87194)"
             },
             {
-                "name": "Gare de Sarlat-la-Can\u00e9da",
-                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare-de-Sarlat.jpg",
-                "imagePath": "./data/images/Gare de Sarlat-la-Can\u00e9da.jpg",
-                "place": "Sarlat-la-Can\u00e9da",
-                "openingDate": "1882-01-01T00:00:00Z",
+                "name": "Nanterre \u2013 Ville",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Nanterre-Ville%2001.jpg",
+                "imagePath": "./data/images/Nanterre \u2013 Ville.jpg",
+                "place": "Nanterre",
+                "openingDate": "1837-01-01T00:00:00Z",
                 "closingDate": null,
                 "lines": [
-                    "Ligne de Condat-Le Lardin \u00e0 Sarlat"
+                    "line from Paris-Saint-Lazare to Saint-Germain-en-Laye"
                 ],
                 "state": "in use",
-                "coordinates": "Point(1.220273 44.876937)"
+                "coordinates": "Point(2.19558893 48.895099397)"
+            },
+            {
+                "name": "Courcelle-sur-Yvette Station",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Courcelle-sur-Yvette%2001.jpg",
+                "imagePath": "./data/images/Courcelle-sur-Yvette Station.jpg",
+                "place": "Gif-sur-Yvette",
+                "openingDate": "1867-08-26T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Ligne de Sceaux"
+                ],
+                "state": "in use",
+                "coordinates": "Point(2.098889 48.700833)"
+            },
+            {
+                "name": "Gare de Paris-Nord",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Paris%20gare%20du%20nord%204%20bis.JPG",
+                "imagePath": "./data/images/Gare de Paris-Nord.JPG",
+                "place": "Quartier Saint-Vincent-de-Paul, 10th arrondissement of Paris",
+                "openingDate": "1846-06-20T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Paris\u2013Lille railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(2.355277777 48.881111111)"
+            },
+            {
+                "name": "Gare de Pierre-Buffi\u00e8re",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Pierre-Buffi%C3%A8re%20-%202015-08-20%20-%20IMG-0452.jpg",
+                "imagePath": "./data/images/Gare de Pierre-Buffi\u00e8re.jpg",
+                "place": "Pierre-Buffi\u00e8re",
+                "openingDate": "1893-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Orl\u00e9ans\u2013Montauban railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(1.347275 45.699506)"
+            },
+            {
+                "name": "Gare du Havre-Graville",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Le%20Havre-Graville.jpeg",
+                "imagePath": "./data/images/Gare du Havre-Graville.jpeg",
+                "place": "Le Havre",
+                "openingDate": "1847-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Paris\u2013Le Havre railway",
+                    " L\u00e9zarde Express R\u00e9gionale"
+                ],
+                "state": "in use",
+                "coordinates": "Point(0.160833 49.499722)"
+            },
+            {
+                "name": "Gare d'Angers-Ma\u00eetre-\u00c9cole",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Abribus%20et%20passerelle%20Angers%20Ma%C3%AEtre-Ecole%20par%20Cramos.JPG",
+                "imagePath": "./data/images/Gare d'Angers-Ma\u00eetre-\u00c9cole.JPG",
+                "place": "Angers",
+                "openingDate": "1877-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Le Mans\u2013Angers railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(-0.532344 47.466953)"
+            },
+            {
+                "name": "Lyon-Saint-Paul station",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Batiment-voyageurs-gare-lyon-saint-paul.jpg",
+                "imagePath": "./data/images/Lyon-Saint-Paul station.jpg",
+                "place": "5th arrondissement of Lyon, Lyon",
+                "openingDate": "1876-01-17T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Lyon-Saint-Paul - Montbrison line"
+                ],
+                "state": "in use",
+                "coordinates": "Point(4.826947222 45.766022222)"
+            },
+            {
+                "name": "Gare de Fr\u00e9pillon",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Halte%20de%20Frepillon%2002.jpg",
+                "imagePath": "./data/images/Gare de Fr\u00e9pillon.jpg",
+                "place": "Fr\u00e9pillon",
+                "openingDate": "1876-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    "Ermont-Eaubonne - Valmondois railway"
+                ],
+                "state": "in use",
+                "coordinates": "Point(2.196944 49.046389)"
+            },
+            {
+                "name": "Magenta railway station",
+                "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/RER-E-station-Magenta.jpg",
+                "imagePath": "./data/images/Magenta railway station.jpg",
+                "place": "10th arrondissement of Paris",
+                "openingDate": "1999-01-01T00:00:00Z",
+                "closingDate": null,
+                "lines": [
+                    ""
+                ],
+                "state": "in use",
+                "coordinates": "Point(2.358056 48.88)"
             }
         ],
         "user_tags": {
-            "Gare de Kogenheim": [
-                "#traininfrastructure"
+            "Pl\u00e9ch\u00e2tel": [
+                "#public",
+                "#trainpeople",
+                "#travel",
+                "#traintrack",
+                "#trainpublic"
             ],
-            "Gare de Sarlat-la-Can\u00e9da": [
+            "Nanterre \u2013 Ville": [
+                "#trainplatform",
+                "#waiting",
+                "#infrastructure",
+                "#public"
+            ],
+            "Courcelle-sur-Yvette Station": [
+                "#commute",
+                "#public"
+            ],
+            "Gare de Paris-Nord": [
+                "#traintravel",
+                "#traininfrastructure",
+                "#traintrack",
+                "#trainplatform"
+            ],
+            "Gare de Pierre-Buffi\u00e8re": [
+                "#platform"
+            ],
+            "Gare du Havre-Graville": [
+                "#trainline",
+                "#trainpeople",
+                "#train",
+                "#building"
+            ],
+            "Gare d'Angers-Ma\u00eetre-\u00c9cole": [
+                "#trainrailway"
+            ],
+            "Lyon-Saint-Paul station": [
+                "#train",
+                "#traintravel",
+                "#railway",
+                "#city",
+                "#trainstation"
+            ],
+            "Gare de Fr\u00e9pillon": [
+                "#trainstation",
+                "#commute"
+            ],
+            "Magenta railway station": [
                 "#platform",
-                "#urban",
-                "#trainpublic",
-                "#transport"
+                "#trainpublic"
             ]
         }
     }

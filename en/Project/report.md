@@ -2,8 +2,6 @@
 
 ## 1. Introduction
 
-## 1. Introduction
-
 ### Project Goal
 
 The primary objective of this project is to develop an image recommendation system that suggests images based on user preferences. By leveraging data collection, annotation, analysis, and visualization techniques, we aim to create a personalized user experience that accurately reflects individual tastes and interests.

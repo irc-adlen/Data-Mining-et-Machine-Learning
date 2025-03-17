@@ -7,21 +7,159 @@
 
 ## 2. Data Collection
 
-- **Sources**: Describe the sources of your open-licensed images and any specific criteria used for selection.
-- **Automation**: Explain the automated approaches used for downloading images and collecting metadata.
-- **Metadata**: List the types of metadata collected (e.g., image size, format, orientation, creation date, camera model).
+### Overview
+
+The data collection phase of this project focused on gathering a set of open-licensed images and their associated metadata. The primary source for this data was Wikidata, a collaborative knowledge base that provides structured data about various topics. The goal was to collect images of railway stations in France, along with relevant metadata, to facilitate further analysis and recommendation tasks.
+
+### Data Source
+
+- **Wikidata**: We utilized Wikidata to query for railway stations in France that have associated images. The query was designed to retrieve essential metadata such as station names, opening dates, coordinates, and image URLs. Wikidata was chosen for its reliability and the availability of open-licensed images.
+
+### Automation Process
+
+1. **Query Execution**:
+   - A SPARQL query was executed on Wikidata to select railway stations in France with available images. The query included filters to ensure that only stations with images and specific metadata (e.g., opening dates, coordinates) were retrieved.
+
+2. **Image Download**:
+   - The retrieved image URLs were used to download the images programmatically. A Python script was developed to handle the download process, ensuring that each image was saved locally with a meaningful filename derived from the station name.
+
+3. **Metadata Extraction**:
+   - Alongside the images, metadata such as image size, format, and orientation were extracted using the EXIF data embedded in the image files. This information was stored in a JSON file for easy access and analysis.
+
+### Implementation Details
+
+- **Libraries Used**:
+  - `urllib`: For sending HTTP requests to download images.
+  - `PIL` (Python Imaging Library): For opening images and extracting EXIF metadata.
+  - `json`: For handling JSON data, which was used to store the metadata.
+
+- **Storage**:
+  - Images were stored in a local directory named `images`.
+  - Metadata was saved in a JSON file for easy access and further processing.
+
+### Challenges and Solutions
+
+- **Handling Missing Data**:
+  - The query and script were designed to handle optional metadata fields gracefully. If certain metadata (e.g., closing date, city names) were missing, the script continued processing without interruption.
+
+- **Ensuring Uniqueness**:
+  - The use of coordinates in the query helped ensure the uniqueness of the stations, preventing duplicate entries.
+
+### Future Improvements
+
+- **Expanding the Dataset**:
+  - Future iterations could include a more diverse set of images, such as those from different countries or categories, to enhance the recommendation system's robustness.
+
+- **Enhancing Metadata Extraction**:
+  - Additional metadata, such as color profiles or more detailed EXIF data, could be extracted to provide richer information for analysis.
+
+### Conclusion
+
+The data collection phase was successfully automated, resulting in a dataset of over 100 images with associated metadata. This dataset forms the foundation for subsequent tasks, including labeling, analysis, visualization, and the development of the recommendation system. The use of Wikidata ensured that the images were open-licensed.
 
 ## 3. Labeling and Annotation
 
-- **Process**: Detail the process of labeling and annotating images, including any automated tools or algorithms used.
-- **Additional Information**: Mention additional data collected, such as predominant colors and user tags.
-- **User Involvement**: Describe how users were involved in the tagging process and any automation efforts in this area.
+### Overview
+
+The labeling and annotation phase of this project focused on enhancing the dataset by adding meaningful labels and annotations to each image. This process involved extracting additional metadata, identifying predominant colors, and using machine learning models to detect objects within the images. The goal was to enrich the dataset with information that could be used for further analysis and recommendation tasks.
+
+### Process
+
+1. **EXIF Data Extraction**:
+   - The EXIF data, which includes technical details such as image size, format, and orientation, was extracted from each image. This data is crucial for understanding the basic characteristics of the images.
+
+2. **Color Analysis**:
+   - The predominant colors in each image were identified using a clustering algorithm (K-Means). This information helps in understanding the visual aesthetics of the images and can be used to recommend images based on color preferences.
+
+3. **Object Detection**:
+   - A pre-trained ResNet50 model was used to detect objects within the images. The model provided the top three object predictions for each image, which were then used as tags. This step automated the process of tagging images with relevant keywords, such as `#train`, `#station`, etc.
+
+### Implementation Details
+
+- **Libraries Used**:
+  - `cv2` (OpenCV): For image processing tasks, such as reading and resizing images.
+  - `numpy`: For numerical operations, especially in handling image data.
+  - `json`: For managing JSON data, which was used to store metadata.
+  - `sklearn.cluster.KMeans`: For clustering pixels to identify predominant colors.
+  - `PIL` (Python Imaging Library): For opening and converting image formats.
+  - `exifread`: For extracting EXIF metadata from images.
+  - `tensorflow` and `keras`: For implementing the object detection model.
+
+- **Storage**:
+  - The extracted metadata, color information, and object tags were stored in JSON files. Each image had a corresponding JSON file that contained all the extracted information.
+
+### Automation
+
+- The process was automated using a Python script that iterated over all the images in the dataset. For each image, the script extracted EXIF data, identified predominant colors, and detected objects. The results were then saved to a JSON file.
+
+### Challenges and Solutions
+
+- **Handling Missing Data**:
+  - Some images did not contain EXIF data or had incomplete metadata. The script was designed to handle such cases gracefully by continuing the process even if certain data was missing.
+
+- **Ensuring Uniqueness**:
+  - The script checked for the existence of a JSON file before processing each image to avoid duplicate entries and ensure that each image was processed only once.
+
+### Future Improvements
+
+- **Enhancing Object Detection**:
+  - The object detection model could be fine-tuned or replaced with a more specialized model to improve the accuracy of the tags.
+
+- **Expanding Color Analysis**:
+  - Additional color analysis techniques could be employed to provide more detailed information about the color profiles of the images.
+
+- **User Involvement**:
+  - Incorporating user feedback in the tagging process could enhance the accuracy and relevance of the tags. Users could verify or modify the automatically generated tags.
 
 ## 4. Data Analyses
 
-- **User Preferences**: Explain how user preferences were analyzed to build user profiles.
-- **Techniques**: Describe the types of analyses performed, including any data mining or machine learning models used.
-- **Tools**: Mention the use of libraries like Pandas and Scikit-learn.
+### Overview
+
+The data analysis phase focused on understanding user preferences based on their interactions with the images. By analyzing the selected images and associated metadata, we aimed to build comprehensive user profiles that could inform the recommendation system. This process involved examining favorite colors, image orientations, sizes, and tags.
+
+### Process
+
+1. **User Preference Analysis**:
+   - For each user, we analyzed their selected images to determine their favorite colors, orientations, sizes, and tags. This information was aggregated to create a user profile that reflected their preferences.
+
+2. **Image Orientation and Size Categorization**:
+   - Images were categorized based on their orientation (landscape, portrait, square) and size (thumbnail, medium, large). This categorization helped in understanding the types of images users prefer.
+
+3. **Color and Tag Analysis**:
+   - The predominant colors in each image were identified, and user-provided tags were collected. This data was used to determine the most frequent colors and tags preferred by each user.
+
+### Implementation Details
+
+- **Libraries Used**:
+  - `json`: For handling JSON data, which was used to store user profiles and metadata.
+  - `PIL` (Python Imaging Library): For opening and analyzing image files to determine orientation and size.
+  - `collections.Counter`: For counting the frequency of colors, orientations, sizes, and tags.
+
+- **Storage**:
+  - User profiles were stored in JSON files, with each user having a separate profile file. These profiles contained aggregated data on favorite colors, orientations, sizes, and tags.
+
+### Automation
+
+- The analysis process was automated using a Python script. The script processed each user's selected images, extracted relevant metadata, and built a user profile. The results were then saved to JSON files for further use.
+
+### Challenges and Solutions
+
+- **Handling Missing Data**:
+  - Some images might not have had complete metadata or user-provided tags. The script was designed to handle such cases by continuing the analysis even if certain data was missing.
+
+- **Ensuring Uniqueness**:
+  - The script checked for the existence of a user profile before processing each user's data to avoid duplicate entries and ensure that each user was processed only once.
+
+### Future Improvements
+
+- **Enhancing User Profiles**:
+  - Additional user interactions, such as ratings or feedback, could be incorporated to enhance the accuracy of the user profiles.
+
+- **Expanding Analysis**:
+  - More sophisticated analysis techniques, such as clustering or classification algorithms, could be employed to identify patterns and trends in user preferences.
+
+- **User Involvement**:
+  - Incorporating user feedback in the analysis process could enhance the accuracy and relevance of the user profiles. Users could verify or modify the automatically generated profiles.
 
 ## 5. Data Visualization
 

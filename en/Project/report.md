@@ -2,8 +2,23 @@
 
 ## 1. Introduction
 
-- **Project Goal**: Briefly describe the main objective of your project, which is to recommend images based on user preferences.
-- **Scope**: Mention the key tasks involved, such as data collection, annotation, analysis, visualization, recommendation system development, testing, and reporting.
+## 1. Introduction
+
+### Project Goal
+
+The primary objective of this project is to develop an image recommendation system that suggests images based on user preferences. By leveraging data collection, annotation, analysis, and visualization techniques, we aim to create a personalized user experience that accurately reflects individual tastes and interests.
+
+### Scope
+
+The project encompasses several key tasks:
+
+- **Data Collection**: Gathering a diverse set of open-licensed images and their associated metadata.
+- **Labeling and Annotation**: Enhancing the dataset with meaningful labels and annotations to facilitate analysis and recommendation.
+- **Data Analysis**: Understanding user preferences by examining selected images and their metadata.
+- **Data Visualization**: Creating visual representations of the dataset and user preferences to gain insights and identify trends.
+- **Recommendation System Development**: Building and evaluating a recommendation system using machine learning models.
+- **Testing**: Conducting functional and user tests to ensure the system's performance and reliability.
+- **Reporting**: Documenting the project's findings, challenges, and future improvements in a comprehensive report.
 
 ## 2. Data Collection
 
